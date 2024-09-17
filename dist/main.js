@@ -16,7 +16,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var mathjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/lib/esm/entry/pureFunctionsAny.generated.js\");\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nconsole.log('Hello all!');\nvar datetime = moment().format('llll');\nconsole.log(datetime);\n\n\n\nconsole.log((0,mathjs__WEBPACK_IMPORTED_MODULE_0__.sqrt)(4).toString()) // 2\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var mathjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/lib/esm/entry/pureFunctionsAny.generated.js\");\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nconsole.log('Hello all!');\nvar datetime = moment().format('llll');\nconsole.log(datetime);\n\nconsole.log((0,mathjs__WEBPACK_IMPORTED_MODULE_0__.sqrt)(4).toString()); // 2\n\nvar number = 5;\nswitch (number) {\n  case 5:\n    console.log('thats too low!');\n    break;\n  case 6:\n    console.log('this is exactly 6');\n    break;\n  case 7:\n    console.log('thats too high');\n    break;\n  default:\n    console.log('try again!');\n}\nvar num = 9;\nif (num > 3) {\n  console.log('thats larger that 3');\n} else if (number < 6) {\n  console.log('thats smaller than 6');\n} else console.log('try again');\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
 
 /***/ }),
 
